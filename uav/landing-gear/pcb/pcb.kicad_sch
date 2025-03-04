@@ -691,7 +691,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Driver_Motor:DRV8837"
+		(symbol "Driver_Motor:DRV8212P"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -703,7 +703,7 @@
 					)
 				)
 			)
-			(property "Value" "DRV8837"
+			(property "Value" "DRV8212P"
 				(at -10.16 11.43 0)
 				(effects
 					(font
@@ -711,7 +711,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+			(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
 				(at 0 -21.59 0)
 				(effects
 					(font
@@ -720,7 +720,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8212p.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -729,7 +729,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
+			(property "Description" "H-Bridge driver, 4A, Low Voltage, PWM input, WSON-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -756,7 +756,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DRV8837_0_1"
+			(symbol "DRV8212P_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 7.62 -10.16)
@@ -769,7 +769,7 @@
 					)
 				)
 			)
-			(symbol "DRV8837_1_1"
+			(symbol "DRV8212P_1_1"
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -3262,7 +3262,25 @@
 			"/9DFrP94c2j/MzMz/zMzM/8zMzP/MzMz/zMzM/8zMzP/MzMz/4uFd//Qxaz/0MWs/9DFrP/Qxaz/"
 			"0MWs/9DFrP/Qxaz/0MWs/9DFrP/Qxaz/0MWs/9DFrP/Qxaz/0MWs/9DFrP/Qxaz/0MWs/9DFrP/Q"
 			"xaz/0MWs/9DFrP/Qxaz/0MWs/7aumv9dXVz/Wlpa/1paWv9aWlr/Wlpa/1paWv9aWlr/Wlpa/1pa"
-			"Wv9aWlr/Wg=="
+			"Wv9aWlr/Wk1rdk9nbGp2UTBiOTQ4ME96UlJ4KzE1MXUyYkJsNFhnNmkiCiJhaG5oWEhMSkpYTEli"
+			"cU1JNzRBQkE2d3R4bVNIdVhnTXRWN3p3UjI2ZFkxS3VtYXpTL1M3R2Nmb3J0TlA5amU5dzAwNytm"
+			"bVByQWk3IgoiUEkrVEFBbFVNQUlGSmJ6KzRVVG9oTlN2WHovNzRrVTE1ZFNwVXpObTcralJvejF4"
+			"UTVXcDI2RXFvMkhNazJIQ0t5SXhlUERndEJEUiIKIkt4Zmlnei8wRGhZWDEyYjlGNU4xMTdyVjlF"
+			"NTduNi9mK0NGY1VMK1llcEd1WjlwaDI1NDNUYWYycjVZcnAyNkRoUGZ1dSsrMjhUM2kiCiJpQ05T"
+			"UFcvOWhab0ZwQWZ0d21FT1E3OGszZGRjYzQwZEZvWTJaZnloelJibkxycm9JdnZiNVlMd1VMdUJz"
+			"ZDN3Z3c1dVlTNHVRNzFwIgoidWI2ang5NjZ1TkplK3RvWHdqdWViZnh1dWo1dGp4MTFqVDM2Nmxl"
+			"L0QyY2RGaThlSndFU0tKOEVDbHA0a1dWb0c1V3hzUmltZzRrUyIKImdwejBiTVZMR3AxNDNKN0RR"
+			"ZjZUSEFzVDNwdHV1c21LUk8vZXZkT0NSL1V5NG9ZMHVNT1k0dHRzMEcrTTZhWjNMcTZ1dTE3MWIv"
+			"MVQiCiIycFZNOTZIVnMvVzVCOVhXMVhjL1JVOWJscjA5SEVFRUNlOHp6enhqNHh4VzRrWHRBdElV"
+			"ZGg3aFNvOXcrTXYyOSs2Nzc4TEVjNDgvIgoiL3JpMXdmQ3RUQjlSOFJscS9lT0NPM1dIMmxWMDNW"
+			"Wlg2bmxCb3JycFcvM1VwWWZxS3BWMjF4ZE8raVJqNXpRdnd0d2hBUktvRUFRSyIKIlhuaVJpeDk5"
+			"OUpHVzl0RjI3ZHFsQ0JmT280U0psenJHaGQ1Nzc3MDRsRmNYSnJ3elo4NjA4Y0JrR2Y1aE52Smgw"
+			"S2xUcDVTNDVXS2oiCiJOMzJoSHo2dmphNVd1Yjd1T1d5R1h2bkxyNzErZnY1MHVyNm9ZeU5kcFZa"
+			"YlBXcld5cFJyWmZvaHdvc2V3dUl3NWhaYzBhdjVzODgrIgoiazhQZUZwMmRjQjZ6YzRXNXBVdVg2"
+			"dHR1dXkzd0QrMzJzTC95eWl2dGVmVDhkcDMwZ2o3bGxGUGN3Mm43T1RFMFVycjRpUUY2bnhwViIK"
+			"IjlMNmRodWhYbmZHOG05Y3YwNDhPNnF4M3FWeFRIL2UzRjN5eldxVmRuZ2RJZ0FRcUdBRUs3OVlN"
+			"bFFrZThLTEdpMXpjdkhuenJPRGkiCiJlTlIyNERmZWVFTmpjZzNZNXVMQ2hCZWxiSlQrRUJlVXdz"
+			"UmhHa1JVeA=="
 		)
 	)
 	(global_label "RC2"
@@ -3968,7 +3986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Driver_Motor:DRV8837")
+		(lib_id "Driver_Motor:DRV8212P")
 		(at 121.92 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3995,7 +4013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+		(property "Footprint" "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
 			(at 121.92 101.6 0)
 			(effects
 				(font
@@ -4004,7 +4022,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8212p.pdf"
 			(at 121.92 80.01 0)
 			(effects
 				(font
@@ -4013,7 +4031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
+		(property "Description" "H-Bridge driver, 4A, Low Voltage, PWM input, WSON-8"
 			(at 121.92 80.01 0)
 			(effects
 				(font

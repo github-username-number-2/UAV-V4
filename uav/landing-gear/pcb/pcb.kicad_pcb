@@ -4363,20 +4363,20 @@
 			)
 		)
 	)
-	(footprint "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm"
+	(footprint "Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "998f7a06-e6d1-49f1-9016-68e516af2dcf")
 		(at 156.8 101.8 90)
 		(descr "8-Lead Plastic WSON, 2x2mm Body, 0.5mm Pitch, WSON-8, http://www.ti.com/lit/ds/symlink/lm27761.pdf")
-		(tags "WSON 8 1EP")
+		(tags "WSON 8 1EP ThermalVias")
 		(property "Reference" "U3"
-			(at -1.2 1.65 90)
+			(at -1.1 1.675 90)
 			(layer "F.SilkS")
 			(uuid "fe0e9490-4f41-41fa-93c5-a4859b93b35a")
 			(effects
 				(font
 					(size 0.5 0.5)
-					(thickness 0.15)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -4391,7 +4391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/drv8837.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8212p.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4404,7 +4404,7 @@
 				)
 			)
 		)
-		(property "Description" "H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8"
+		(property "Description" "H-Bridge driver, 4A, Low Voltage, PWM input, WSON-8"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4430,7 +4430,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5c6195b3-09a7-4ab8-ac98-679c9f6d5b65")
+			(uuid "45ebb18f-cdab-4698-9bbf-4bf9b6fbab18")
 		)
 		(fp_line
 			(start -1 1.14)
@@ -4440,7 +4440,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9ea7a81b-7146-406c-a32d-0c497dd8ff5c")
+			(uuid "37221630-ca4f-4636-9bab-a852a8768b3a")
 		)
 		(fp_poly
 			(pts
@@ -4452,7 +4452,7 @@
 			)
 			(fill yes)
 			(layer "F.SilkS")
-			(uuid "d667424a-023e-4fab-aaa8-4949a5593ec7")
+			(uuid "88997188-16b1-468b-94a2-a46428b2cdfb")
 		)
 		(fp_line
 			(start 1.6 -1.25)
@@ -4462,7 +4462,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c0ea50e3-ac5e-4643-b476-ca1232c5a39f")
+			(uuid "e5344ce1-cbb6-401b-b55b-f95e7b9d7183")
 		)
 		(fp_line
 			(start -1.6 -1.25)
@@ -4472,7 +4472,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "4f674ac9-1df8-4f9c-a804-f0661734ae91")
+			(uuid "50217bc0-e9af-4291-a090-fb788500c6ab")
 		)
 		(fp_line
 			(start -1.6 -1.25)
@@ -4482,7 +4482,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "446d2153-0cfa-4a61-9f28-734d9808856e")
+			(uuid "1dd94f78-8c26-4aa8-986e-f9cf51ead195")
 		)
 		(fp_line
 			(start -1.6 1.25)
@@ -4492,7 +4492,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "dbec36ba-3f41-4a12-9443-7c05853352f0")
+			(uuid "d7aa7e28-4f22-4ab2-9be7-4e70fc831229")
 		)
 		(fp_line
 			(start 1 -1)
@@ -4502,7 +4502,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "3327c513-4c50-4e0f-a553-cfed12a008a8")
+			(uuid "211e1142-38e0-4d11-8b83-64f84dfeb735")
 		)
 		(fp_line
 			(start -0.5 -1)
@@ -4512,7 +4512,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "00e555e2-cef1-40cf-a5d8-529acace59a1")
+			(uuid "264c98cc-b2b9-4a97-9a14-f01924e743e1")
 		)
 		(fp_line
 			(start -0.5 -1)
@@ -4522,7 +4522,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6c81238f-85e9-4c90-92da-0c4dafa512bf")
+			(uuid "8f9e7b11-c32c-4a7d-a983-ae939371748f")
 		)
 		(fp_line
 			(start 1 1)
@@ -4532,7 +4532,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "eb724451-9ac3-4be2-bb56-a0679c494e5a")
+			(uuid "7069d84f-ea85-45c5-a6fd-757ad99edc3f")
 		)
 		(fp_line
 			(start -1 1)
@@ -4542,7 +4542,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b6104c4f-542c-48a9-8f2b-588f9bd4c5cd")
+			(uuid "e93c5621-4934-4aeb-828a-34048a79fa22")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -4559,13 +4559,13 @@
 			(at 0 -0.4 90)
 			(size 0.75 0.65)
 			(layers "F.Paste")
-			(uuid "f09dee2c-3d34-4ac3-9cda-e25c101ebc23")
+			(uuid "ec972e56-74c1-40dc-8774-01166c13cbd8")
 		)
 		(pad "" smd rect
 			(at 0 0.4 90)
 			(size 0.75 0.65)
 			(layers "F.Paste")
-			(uuid "6e552f48-6529-4eff-bc5d-f4846fae954a")
+			(uuid "ae784389-d8c7-45ba-a9a2-241a5584ad36")
 		)
 		(pad "1" smd roundrect
 			(at -0.95 -0.75 90)
@@ -4647,10 +4647,43 @@
 			(pintype "power_in")
 			(uuid "27453f64-326a-4eaf-a123-82d289ebc970")
 		)
+		(pad "9" thru_hole circle
+			(at 0 -0.5 90)
+			(size 0.6 0.6)
+			(drill 0.25)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
+			(net 3 "GNDREF")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "5efc52c8-e14b-43ce-aeb3-3d51aff8aad3")
+		)
 		(pad "9" smd rect
 			(at 0 0 90)
 			(size 0.9 1.6)
 			(layers "F.Cu" "F.Mask")
+			(net 3 "GNDREF")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "5efc52c8-e14b-43ce-aeb3-3d51aff8aad3")
+		)
+		(pad "9" smd rect
+			(at 0 0 90)
+			(size 0.9 1.6)
+			(layers "B.Cu")
+			(net 3 "GNDREF")
+			(pinfunction "GND")
+			(pintype "passive")
+			(uuid "5efc52c8-e14b-43ce-aeb3-3d51aff8aad3")
+		)
+		(pad "9" thru_hole circle
+			(at 0 0.5 90)
+			(size 0.6 0.6)
+			(drill 0.25)
+			(property pad_prop_heatsink)
+			(layers "*.Cu")
+			(remove_unused_layers no)
 			(net 3 "GNDREF")
 			(pinfunction "GND")
 			(pintype "passive")
@@ -6113,6 +6146,18 @@
 			(justify right bottom)
 		)
 	)
+	(gr_text "V1"
+		(at 165.4 102.15 0)
+		(layer "F.SilkS")
+		(uuid "a1fa3389-0909-4573-af7c-bf72e52d7a06")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "CLK"
 		(at 164.7 98.1 0)
 		(layer "F.SilkS")
@@ -6362,14 +6407,6 @@
 		(uuid "f23bccc8-a3c1-4f17-85d8-a93d970e4b72")
 	)
 	(via
-		(at 157.3 101.8)
-		(size 0.459)
-		(drill 0.255)
-		(layers "F.Cu" "B.Cu")
-		(net 3)
-		(uuid "0dae53ba-c13e-402b-9da0-45f93f858919")
-	)
-	(via
 		(at 154.85 101.11)
 		(size 0.459)
 		(drill 0.255)
@@ -6384,14 +6421,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 3)
 		(uuid "1f18253c-6a12-4434-a26d-5e15c0de200b")
-	)
-	(via
-		(at 156.3 101.8)
-		(size 0.459)
-		(drill 0.255)
-		(layers "F.Cu" "B.Cu")
-		(net 3)
-		(uuid "242acd37-85f7-47c6-a7d0-3f2597d6d071")
 	)
 	(via
 		(at 152.79 103.9)
@@ -6472,14 +6501,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net 3)
 		(uuid "c05c81f1-8831-4a8f-87d6-f4223a4f5600")
-	)
-	(via
-		(at 156.8 101.8)
-		(size 0.459)
-		(drill 0.255)
-		(layers "F.Cu" "B.Cu")
-		(net 3)
-		(uuid "c858e7ec-9b80-4ece-8e58-6545033078f7")
 	)
 	(via
 		(at 152.18 98.65)
