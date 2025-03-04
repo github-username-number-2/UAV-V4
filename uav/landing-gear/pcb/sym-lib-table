@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PIC16F15223")(type "KiCad")(uri "/Users/lbajaric/Desktop/UAV-V4/files/kicad/PIC16F15223.kicad_sym")(options "")(descr ""))
+)
