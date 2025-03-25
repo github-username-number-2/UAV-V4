@@ -12,3 +12,5 @@
 # Ignore STLs
 **.stl
 
+/uav/landing-gear/firmware/build/
+/uav/landing-gear/firmware/dist/

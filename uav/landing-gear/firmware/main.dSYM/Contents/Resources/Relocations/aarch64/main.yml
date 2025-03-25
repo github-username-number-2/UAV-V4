@@ -1,5 +1,0 @@
----
-triple:          'arm64-apple-darwin'
-binary-path:     '/Users/lbajaric/Desktop/UAV-V4/uav/landing-gear/firmware/main'
-relocations:     []
-...

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/lbajaric/Desktop/UAV-V4/uav/landing-gear/firmware/mcc_generated_files/i2c_client/i2c_client_types.h</file>
+            <file>file:/Users/lbajaric/Desktop/UAV-V4/uav/landing-gear/firmware/mcc_generated_files/i2c_client/i2c_client_interface.h</file>
+            <file>file:/Users/lbajaric/Desktop/UAV-V4/uav/landing-gear/firmware/mcc_generated_files/system/pins.h</file>
+            <file>file:/Users/lbajaric/Desktop/UAV-V4/uav/landing-gear/firmware/mcc_generated_files/generic_driver_interfaces/generic_driver_interfaces.h</file>
+            <file>file:/Users/lbajaric/Desktop/UAV-V4/uav/landing-gear/firmware/Makefile</file>
+            <file>file:/Users/lbajaric/Desktop/UAV-V4/uav/landing-gear/firmware/main.c</file>
+            <file>file:/Users/lbajaric/Desktop/UAV-V4/uav/landing-gear/firmware/mcc_generated_files/system/system.h</file>
+            <file>file:/Users/lbajaric/Desktop/UAV-V4/uav/landing-gear/firmware/mcc_generated_files/i2c_client/src/mssp1.c</file>
+        </group>
+    </open-files>
+</project-private>
