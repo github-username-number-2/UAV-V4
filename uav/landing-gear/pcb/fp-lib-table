@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Custom")(type "KiCad")(uri "/Users/lbajaric/Desktop/UAV-V4/files/kicad/footprints.pretty")(options "")(descr ""))
+  (lib (name "Custom")(type "KiCad")(uri "/Users/lbajaric/Projects/UAV-V4/files/kicad/footprints.pretty")(options "")(descr ""))
 )
